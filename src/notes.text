@@ -1,0 +1,23 @@
+01.submit :-
+            a.repository er link:
+            b.live site er link:
+02.website er name.
+03.ui 2 column.  
+04.product 3 column.phone 1 column responsive.  
+05.data:-id, name,price,
+06. data: 9-12.    
+07.button + icon.
+08.on click a cart name show.
+09.button.choses 1 for me.random selected 1 item.
+
+
+            Bonus marks
+01.destructure use.
+02. 6 commit.
+03.Readme file edit 
+project name and live website er link:
+04.button.choose agin  cart empty.
+05.component a answer the que.
+q.1:-how react work?
+q.2:-props vs state?
+q.3:-how use state works?
