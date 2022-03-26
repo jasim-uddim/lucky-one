@@ -16,6 +16,15 @@ const Shop = () => {
     const storedCart = [...cart, phone];
     setCart(storedCart);
   };
+  const allClear = () => {
+    setCart([]);
+  };
+  const chooseOne = () => {
+    const choose = Math.floor(Math.random() * cart.length);
+
+    setCart([cart[choose]]);
+  };
+
   return (
     <div className="main-container">
       <div className="shop-container">
@@ -24,7 +33,7 @@ const Shop = () => {
         ))}
       </div>
       <div className="cart-container">
-        <Cart cart={cart}></Cart>
+        <Cart cart={cart} allClear={allClear} chooseOne={chooseOne}></Cart>
       </div>
     </div>
   );
