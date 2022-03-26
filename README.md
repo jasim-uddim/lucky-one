@@ -1,6 +1,6 @@
 # My Project Name:Ma-phone-store.
 
-[Ma-phone-store](https://vocal-gelato-9e080d.netlify.app/)
+live site link: [https://vocal-gelato-9e080d.netlify.app/](https://vocal-gelato-9e080d.netlify.app/)
 
 ## This is a fully responsive website made with :
 
