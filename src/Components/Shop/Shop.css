@@ -8,3 +8,21 @@
   gap: 25px;
   margin-top: 100px;
 }
+/* sm: 576px,
+  md: 768px, */
+@media screen and(max-width:800px) {
+  .main-container {
+    grid-template-columns: 4fr, 1fr;
+  }
+}
+@media screen and (max-width: 800px) {
+  .shop-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .shop-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
