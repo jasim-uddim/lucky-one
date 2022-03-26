@@ -20,35 +20,35 @@ const Answer = () => {
       </p>
       <h1> Question 02: props vs state?</h1>
       <p>
-        Ans: Have you ever wondered how can we pass the data between the
-        components in ReactJS? We can pass the data between the components using
-        Props and State. So, let us know how we can pass the data using props
-        and state and understand the difference between the two. We will learn
-        about props and state with the help of an example project in ReactJS.
-        Steps to Create React Project: Step 1: Create a React application using
-        the following command: npx create-react-app foldername Props: Props are
-        known as properties it can be used to pass data from one component to
-        another. Props cannot be modified, read-only, and Immutable.The
-        following will be the output when we execute the above command. The data
-        will be passed from the Parent component i.e. App.js to the Child
-        component i.e. Fruit.js with the usage of the “Props” feature.{" "}
+        Ans: Have you ever ponder how can we pass the data between the
+        components in ReactJSX? We can pass the data between the components
+        using Props and State. So, let us know how we can pass the data using
+        props and state and understand the difference between the two. We will
+        learn about props and state with the help of an example project in
+        ReactJSx. Steps to Create React Project: Step 1: Create a React
+        application using the following command: npx create-react-app foldername
+        Props: Props are known as properties it can be used to pass data from
+        one component to another. Props cannot be modified, read-only, and
+        Immutable.The following will be the output when we execute the above
+        command. The data will be passed from the Parent component i.e. App.js
+        to the Child component i.e. Fruit.js with the usage of the “Props”
+        feature.{" "}
       </p>
       <h1>Question 03:How use state works?</h1>
       <p>
         Ans: There are two types of components in React: class and functional
         components. Class components are ES6 classes that extend from
-        React.Component and can have state and lifecycle methods.React Hooks are
-        functions that add state variables to functional components and
-        instrument the lifecycle methods of classes. They tend to start with
-        use.As stated previously, useState enables you to add state to function
+        React.Component and can have state and circuition methods.React Hooks
+        are functions that add state variables to functional components and
+        implement the lifecycle methods of classes. They tend to start with
+        use.As stated formerly, useState enables you to add state to function
         components. Calling React.useState inside a function component generates
-        a single piece of state associated with that component. Whereas the
-        state in a class is always an object, with Hooks, the state can be any
-        type. Each piece of state holds a single value, which can be an object,
-        an array, a boolean, or any other type you can imagine. So when should
-        you use the useState Hook? It's especially useful for local component
-        state, but larger projects might require additional state management
-        solutions.
+        a single piece of state connected with that component. Whereas the state
+        in a class is always an object, with Hooks, the state can be any type.
+        Each piece of state holds a single value, which can be an object, an
+        array, a boolean, or any other type you can imagine. So when should you
+        use the useState Hook? It's mainly useful for local component state, but
+        larger projects might require also state management solutions.
       </p>
     </div>
   );
