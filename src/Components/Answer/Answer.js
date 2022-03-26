@@ -6,17 +6,17 @@ const Answer = () => {
       <h1> Question 01:How does react work?</h1>
       <p>
         Ans: React is a JavaScript library (not a framework) that creates user
-        interfaces (UIs) in a predictable and efficient way using declarative
+        interfaces (UIs) in a foreseeable and systematic way using declarative
         code. You can use it to help build single page applications and mobile
-        apps, or to build complex apps if you utilise it with other libraries.We
-        use declarative code to create components, which is how we display
-        information. Essentially, components are reusable UIs which allow you to
-        split the app into separate blocks that act independently of each other.
-        Components accept an arbitrary input with data (a prop) and return a
-        React element to declare what should appear on screen. They can interact
-        with other components via props to create a complex UI. But to create a
-        complex UI, you need to order the components in a logical way. To do
-        that, we need to look at what state is in React.
+        apps, or to build compounds apps if you utilize it with other
+        libraries.We use declarative code to create components, which is how we
+        display information. mainly, components are reusable UIs which allow you
+        to split the app into unconnected blocks that act independently of each
+        other. Components accept an capricious input with data (a prop) and
+        return a React element to declare what should appear on screen. They can
+        interplay with other components via props to create a complex UI. But to
+        create a complex UI, you need to order the components in a logical way.
+        To do that, we need to look at what state is in React.
       </p>
       <h1> Question 02: props vs state?</h1>
       <p>
