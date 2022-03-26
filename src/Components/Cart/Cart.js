@@ -1,10 +1,18 @@
 import React from "react";
 import "./Cart.css";
-const Cart = ({ phone }) => {
-  console.log(phone);
+import Selected from "./Selected/Selected";
+const Cart = ({ cart }) => {
+  console.log(cart);
   return (
     <div className="cart">
-      <h1>cart summary</h1>
+      <h1>Selected phone</h1>
+      {cart.map((cart) => (
+        <Selected cart={cart}></Selected>
+      ))}
+      <button>choose agin</button>
+      <br></br>
+      <br></br>
+      <button>selected</button>
     </div>
   );
 };

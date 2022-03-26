@@ -5,12 +5,14 @@ import "./Shop.css";
 const Shop = () => {
   const [phones, setPhones] = useState([]);
   const [cart, setCart] = useState([]);
+  // console.log(cart);
   useEffect(() => {
     fetch("data.json")
       .then((res) => res.json())
       .then((data) => setPhones(data));
   }, []);
   const addToCart = (phone) => {
+    console.log(phone);
     const storedCart = [...cart, phone];
     setCart(storedCart);
   };
