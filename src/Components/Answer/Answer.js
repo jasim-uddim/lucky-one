@@ -38,17 +38,17 @@ const Answer = () => {
       <p>
         Ans: There are two types of components in React: class and functional
         components. Class components are ES6 classes that extend from
-        React.Component and can have state and circuition methods.React Hooks
-        are functions that add state variables to functional components and
-        implement the lifecycle methods of classes. They tend to start with
-        use.As stated formerly, useState enables you to add state to function
-        components. Calling React.useState inside a function component generates
-        a single piece of state connected with that component. Whereas the state
-        in a class is always an object, with Hooks, the state can be any type.
-        Each piece of state holds a single value, which can be an object, an
-        array, a boolean, or any other type you can imagine. So when should you
-        use the useState Hook? It's mainly useful for local component state, but
-        larger projects might require also state management solutions.
+        React.Component and can have state and methods.React Hooks are functions
+        that add state variables to functional components and implement the
+        lifecycle methods of classes. They tend to start with use.As stated
+        formerly, useState enables you to add state to function components.
+        Calling React.useState inside a function component generates a single
+        piece of state connected with that component. Whereas the state in a
+        class is always an object, with Hooks, the state can be any type. Each
+        piece of state holds a single value, which can be an object, an array, a
+        boolean, or any other type you can imagine. So when should you use the
+        useState Hook? It's mainly useful for local component state, but larger
+        projects might require also state management solutions.
       </p>
     </div>
   );
